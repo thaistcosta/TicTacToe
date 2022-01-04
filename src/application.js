@@ -1,6 +1,6 @@
-const isDivisibleByThree = (number) => {
-    return number % 3 === 0;
+const horizontalWin = (array) => {
+    return [...new Set(array)].length === 1;      
 };
 
 
-export { isDivisibleByThree };
+export { horizontalWin };
